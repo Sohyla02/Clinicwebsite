@@ -1,0 +1,10 @@
+<header  >
+        <div class="div1">
+            <img src="hospital logo.jpg" alt="hospital logo" style="width:70px;heigth: 70px;left: 20px;">
+            <a href="hospital.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">services</a>
+            <a href="#">contact</a>
+            <a href="#">contact</a>
+        </div>
+    </header>

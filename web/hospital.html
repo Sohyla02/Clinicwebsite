@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Health Care</title>
+        <link rel="stylesheet" type="text/css" href="Css.css">
+        
+
+    </head>
+    <script type="text/javascript">
+        function message(x){
+            switch(x){
+                case 1:
+                    alert("make an appointment");
+                break;
+                case 2:
+                    alert("read more about el hospital");
+                    
+                break; 
+                case 3:
+                    alert("please enter your name");
+                break; 
+                case 4:
+                    alert("please enter your phone number");
+                break;  
+                case 5:
+                    alert("please enter your email: name@example.com");
+                break;
+            }
+        }
+
+    </script>
+    <body>
+        <header  >
+        <div class="div1">
+            <img src="hospital_logo.jpg" alt="hospital logo" style="width:70px; height: 70px;left: 20px;">
+            <a href="hospital.html">Home</a>
+            <a href="#about">About Us</a>
+            <a href="service.html">services</a>
+            <a href="doctors.html">Doctor</a>
+            <a href="contact us.html">contact</a>
+            
+        </div>
+    </header>
+    
+        <br><br><br><br>
+        
+            <img src="bg.jpg" alt="presentation img" class="img1">
+            
+            <h1 class="x">We Provide Top Medical services<br><span class="x1"> More than 30 professional</span></h1>
+            <form class="form1">
+                <input type="button" value="Make an Appointment" id="btn" onclick="message(1)">
+                <input type="button" value="Read more" id="btn" onclick="message(2)">
+            </form>  
+            <div class="div2">
+                <p class="p1" >Monday - Friday 08:00 - 21:00<br>
+                    Saturday and Sunday - CLOSED</p>
+                <p class="p2"  >
+                        0080 673 729 766 | 0080 234 5678 900<br>contact@business.com
+                 </p>
+                <p class="p3"  >Lamas Carbajal Str, no 14-18
+                    <br>41770 Montellano
+                </p>
+
+            </div> 
+            <div  class="div3">
+                <P style="width:200px ;background: none;text-align: center;padding: 2px;animation-name: 0.3sec;">
+                   <h3 style="background:none ;padding:10px;">For Emergencies</h1> 
+                    <br><span style="position:relative ;top: -30px;left: 10px;background: none;color: #000;font-size: 25px;">+0080 954 4557 884</span>
+                    <br><span style="background: none;position:relative;left:10px;text-align: center;"> ipsum dolor sit amet, consectetur adipisicing elit. Perferendis id explicabo quam quo nisi nihil ducimus, <br>possimus. Lorem ipsum dolor sit amet.</span>
+                </P>
+            </div> 
+            <form style="background-color:rgb(32, 99, 255) ;width:450px;height: 300px;border-radius: 10px;position:relative ;left: 750px;top: -420px;">
+                <h2 style="background: none;font-family: sans-serif;position: relative;top: 20px;left: 10px;color: white;">Booking an Appointment</h2>
+                <input type="text" placeholder="name" size="20" style="height: 35px;position: relative;left: 10px;top: 10px;border: none;" onmouseover="message(3)" ><br><br>
+                <input type="text" placeholder="phone" style="height: 35px;position: relative;left: 10px;top: 10px;border: none;" onmouseover="message(4)"><br><br>
+
+                <input type="email" placeholder="Email" style="height: 35px;position: relative;left: 10px;top: 10px;border: none;" onmouseover="message(5)" ><br>
+                <input type="button" value="Make an Appointment" style="height: 35px;position: relative;left: 100px;top: 30px;background-color: rgb(179, 188, 188);" id="b" onclick="message(1)">
+
+
+            </form>
+            <img src="doctor.png" alt="doctor img" style="position:absolute ;top: 1100px;left: 1000px; ">
+            <h1 style="position:absolute ;top: 1100px;left: 300px;font-weight: bold;" id="about">Welcome to Medica Health Center</h1>
+            <blockquote style="width:400px;position:absolute ;top: 1200px;left: 300px;font-family: 'Times New Roman', Times, serif;color: darkslategray;">Phasellus at nunc orci. Donec ipsum metus, pharetra quis nunc sit amet, maximus
+            vehicula nibh. Praesent pulvinar porta elit, a commodo erat accumsan sed. Vivamus vel tristique nibh.
+            Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor sollicitudin.
+            Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque. Fusce ac mattis nulla.
+            Morbi eget ornare dui. Donec nec fringilla mi. Pellentesque molestie consequat felis vitae elementum.
+            Proin ut tempor urna.</blockquote>
+            <hr>
+            <p style="color:rgb(67, 111, 242);text-align: center;">Copyright ©2022 All rights reserved</p>
+
+           
+           
+       
+
+    </body>
+</html>

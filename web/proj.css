@@ -1,0 +1,158 @@
+*{
+    background-color:white;
+}
+
+  a {
+    color: #1977cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #3291e6;
+    text-decoration: none;
+  }
+  .container {
+    position: relative;
+  }
+.div1{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 1550px;
+    height: 60px;
+    z-index: 1000;
+    
+    
+    }
+
+div a{
+    position: relative;
+    color: darkgray;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.3s;
+    left: 900px;
+    top: -20px;
+    padding-inline: 10px;
+    
+}
+a::before{
+    position: absolute;
+    left: 2px;
+    height: 2px;
+    width: 100%;
+    background-color: darkgray;
+    content:"" ;
+    bottom: -7px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(85, 123, 228);
+}
+a:hover::before{
+    
+    width: auto;
+}
+
+.doctors {
+    background: #fff;
+  }
+  
+  .doctors .member {
+    position: relative;
+  
+    padding: 30px;
+    border-radius: 10px;
+  }
+    
+  .doctors .member .pic img {
+   left: 550px;
+   position: relative;
+   height: 300px;
+
+  }
+  
+  .doctors .member .member-info {
+   text-align: center;
+  }
+  
+  .doctors .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #003f79;
+  }
+  
+  .doctors .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .doctors .member span::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #b2c8dd;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .doctors .member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+  }
+  
+  section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f1f7fd;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+  }
+  
+  .section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+
+  
+  

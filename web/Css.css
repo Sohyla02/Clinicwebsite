@@ -1,0 +1,129 @@
+*{
+    background-color:white;
+}
+.div1{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 1550px;
+    height: 60px;
+    z-index: 1000;
+    
+    
+    }
+
+div a{
+    position: relative;
+    color: darkgray;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.3s;
+    left: 900px;
+    top: -20px;
+    padding-inline: 10px;
+    
+}
+a::before{
+    position: absolute;
+    left: 2px;
+    height: 2px;
+    width: 100%;
+    background-color: darkgray;
+    content:"" ;
+    bottom: -7px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(85, 123, 228);
+}
+a:hover::before{
+    
+    width: auto;
+}
+.img1{
+    width: 1510px;
+    height: 500px; ;
+   
+}
+.x{
+    background:none ;
+    position:absolute;
+    top: 200px;
+    left: 40px;
+    font-family: serif;
+    color: rgb(52, 148, 231);
+}
+.x1{
+    font-family: serif;
+    font-size: 15px;
+    background: none;
+    
+}
+#btn{
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(179, 188, 188);
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btn:hover{
+   
+    background-color: rgb(37, 73, 234);
+}
+.form1{
+    position: absolute;
+    top:320px;
+    left: 40px;
+    background: none;
+}
+.div2{
+    position: relative;
+    top: -25px;
+    width: 1520px;
+    height: 200px;
+    background-color:rgb(209, 225, 225);
+}
+.p1{
+    width: auto;
+position: relative;
+top: 50px;
+left: 100px;
+font-size: 20px;
+
+background: none;
+}
+.p2{
+    width: auto;
+position: relative;
+left: 50px;
+text-align: center;
+background: none;
+font-size: 20px;
+}
+.p3{
+    width: auto;
+position: relative;
+top: -70px;
+text-align: right;
+background: none;
+right: 50px;
+font-size: 20px;
+}
+.div3{
+    background-color:rgb(85, 197, 253);
+    width:450px;
+    height: 300px;
+    position: relative;
+    top: -100px;
+    left: 300px;
+    border-radius: 10px;
+    color: white;
+}
+#b:hover{
+    background-color: rgb(157, 255, 0);
+    color: white;
+    border: none;
+}

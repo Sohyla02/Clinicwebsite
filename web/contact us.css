@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #fff;
+    font-family: sans-serif;
+}
+.Contact-title{
+    width: 100%;
+    margin: 50px auto;
+    color:#1c00b5;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+   
+}
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    margin-bottom: 16px;
+}    
+input{
+    height: 45px;
+}
+form .submit{
+    background: #1c00b5;
+    width: 150px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+
+}
+.contact-right{
+    padding: 20px;
+    background: #1c00b5;
+    color: #fff;
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+table{
+    color: #fff;
+}
+.div1{
+    position: relative;
+    top: 0px;
+    background-color: white;
+    width: 1550px;
+    height: 60px;
+    z-index: 1000;
+    right: 500px;
+}
+div a{
+    position: relative;
+    color: darkgray;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.3s;
+    left: 900px;
+    top: -20px;
+    padding-inline: 10px;
+}
+a::before{
+    position: absolute;
+    left: 2px;
+    height: 2px;
+    width: 100%;
+    background-color: darkgray;
+    content:"" ;
+    bottom: -7px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(85, 123, 228);
+}
+a:hover::before{
+    
+    width: auto;
+}

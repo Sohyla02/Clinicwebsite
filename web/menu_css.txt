@@ -1,0 +1,44 @@
+*{
+    background-color:white;
+}
+.div1{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 1550px;
+    height: 60px;
+    z-index: 1000;
+    
+    
+    }
+
+div a{
+    position: relative;
+    color: darkgray;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.3s;
+    left: 900px;
+    top: -20px;
+    padding-inline: 10px;
+    
+}
+a::before{
+    position: absolute;
+    left: 2px;
+    height: 2px;
+    width: 100%;
+    background-color: darkgray;
+    content:"" ;
+    bottom: -7px;
+    transition: 0.3s;
+}
+a:hover{
+    color: rgb(85, 123, 228);
+}
+a:hover::before{
+    
+    width: auto;
+}

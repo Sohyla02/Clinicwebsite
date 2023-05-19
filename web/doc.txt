@@ -1,0 +1,9 @@
+concerned with the diagnosis, treatment, and prevention of diseases of the skin, hair, nails,\n \
+ oral cavity and genitals and  cosmetic care and enhancement.",
+ "concerned with the study and treatment of disorders of the nervous system. The nervous system is a complex, \n \
+ sophisticated system that regulates and coordinates body activities. ",
+ "specializes in diagnosing and treating diseases of the heart, blood vessels, and circulatory system. \n \
+ These diseases include coronary artery disease, heart rhythm problems, and heart failure.",
+ "surgeons diagnose and treat conditions of the musculoskeletal system including bones and joints \n \
+ and structures that enable movement such as ligaments, tendons, muscles and nerves. "
+]

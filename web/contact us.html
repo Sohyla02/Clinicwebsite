@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel = "stylesheet" href="contact us.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    </head>
+    <header  >
+        <div class="div1">
+            <img src="hospital_logo.jpg" alt="hospital logo" style="width:100px;height: 100px;left: 20px;">
+            <a href="hospital.html">Home</a>
+            <a href="#">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="contact us.html">contact</a>
+        </div>
+    </header>
+    <body>
+        <div class="Contact-title">
+            <h1>Connect With Us</h1>
+            <p>We would love to respond to your quieries and help you succeed.<br> Feel free to get in touch with us.</p>
+        </div>
+        <div>
+            <form  onsubmit="return true">
+               
+                <input name="name" type="text" class="form-control" placeholder=" Name" required><br>
+                <input name="email" type="email" class="form-control" placeholder=" Email" required><br>
+                <input name="phone" type="number" class="form-control" placeholder=" Phone Number" required><br>
+                <input name="subject" type="text" class="form-control" placeholder=" Subject" required><br>
+                <textarea name="message" class="form-control" placeholder=" Message" rows="4" required></textarea><br>
+                <input type="submit" class="form-control submit" value="SEND">
+
+                
+            </form>
+        </div>
+        <div class="contact-right">
+            <h3> Reach Us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>contact@business.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>0080 673 729 766 | 0080 234 5678 900</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>Lamas Carbajal,
+                    St. no 14-18<br>
+                    41770 Montellano
+                </td>
+                </tr>
+               
+            
+            </table>
+        </div>
+    </body>
+</html>
+function isNotEmpty(value) {
+    if (value == null || typeof value == 'undefined' ) return false;
+    return (value.length > 0);
+   }
+   
